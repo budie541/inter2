@@ -1,0 +1,60 @@
+html { 
+	background: url(images/MAP.png) no-repeat center center fixed;
+	background-size: cover;
+}
+
+img{
+	width: 250px;
+	position: absolute;
+	bottom: -160;
+}
+
+h4{
+	color: orangered;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.song-item{
+	position: absolute;
+	display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.song-item:hover .song-info{
+	opacity: 1;
+}
+
+
+.song-info{
+	position: fixed ;
+	bottom: 180;
+	right: 20;
+	opacity: 0;
+	width: 250px;
+}
+
+.text-info{
+	background-color: white;
+	padding: 20px;
+	padding-bottom: 90px;
+	border-radius: 15%;
+	font-family: arial;
+	display: none;
+}
+
+h1{
+	line-height: 35px;
+	font-size: 32px;
+}
+
+p{
+	line-height: 25px;
+	font-size: 15px;
+	padding-left: 15px;
+	font-family: monospace;
+}
+
+
+
